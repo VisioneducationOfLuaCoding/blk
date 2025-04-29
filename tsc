@@ -504,7 +504,7 @@
         }
         async function setCheats(mode, scripts, nameOnly) {
             cheats.innerHTML = "";
-            headerText.firstChild.innerText = `${mode}${nameOnly ? "" : " Cheats"}`;
+            headerText.firstChild.innerText = `${mode}${nameOnly ? "" : " Cheatz"}`;
             cheats.append(headerText);
         
             for (let i = 0; i < scripts.length; i++) {
