@@ -311,7 +311,7 @@
                             width: "55px",
                             fontFamily: "Nunito",
                             color: "white",
-                            backgroundColor: "red",
+                            backgroundColor: "blue",
                             border: "none",
                             fontSize: "2rem",
                             fontWeight: "bolder",
@@ -504,7 +504,7 @@
         }
         async function setCheats(mode, scripts, nameOnly) {
             cheats.innerHTML = "";
-            headerText.firstChild.innerText = `${mode}${nameOnly ? "" : " Cheatz"}`;
+            headerText.firstChild.innerText = `${mode}${nameOnly ? "" : " Client"}`;
             cheats.append(headerText);
         
             for (let i = 0; i < scripts.length; i++) {
